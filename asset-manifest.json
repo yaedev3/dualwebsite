@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/yaedev3/dualwebsite/static/css/main.8c8b27cf.chunk.css",
+    "main.js": "/yaedev3/dualwebsite/static/js/main.babbe4c6.chunk.js",
+    "main.js.map": "/yaedev3/dualwebsite/static/js/main.babbe4c6.chunk.js.map",
+    "runtime-main.js": "/yaedev3/dualwebsite/static/js/runtime-main.1b2c0330.js",
+    "runtime-main.js.map": "/yaedev3/dualwebsite/static/js/runtime-main.1b2c0330.js.map",
+    "static/js/2.3facffb4.chunk.js": "/yaedev3/dualwebsite/static/js/2.3facffb4.chunk.js",
+    "static/js/2.3facffb4.chunk.js.map": "/yaedev3/dualwebsite/static/js/2.3facffb4.chunk.js.map",
+    "static/js/3.04bc784f.chunk.js": "/yaedev3/dualwebsite/static/js/3.04bc784f.chunk.js",
+    "static/js/3.04bc784f.chunk.js.map": "/yaedev3/dualwebsite/static/js/3.04bc784f.chunk.js.map",
+    "index.html": "/yaedev3/dualwebsite/index.html",
+    "static/css/main.8c8b27cf.chunk.css.map": "/yaedev3/dualwebsite/static/css/main.8c8b27cf.chunk.css.map",
+    "static/js/2.3facffb4.chunk.js.LICENSE.txt": "/yaedev3/dualwebsite/static/js/2.3facffb4.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/yaedev3/dualwebsite/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1b2c0330.js",
+    "static/js/2.3facffb4.chunk.js",
+    "static/css/main.8c8b27cf.chunk.css",
+    "static/js/main.babbe4c6.chunk.js"
+  ]
+}
