@@ -1,25 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from 'react'
+import { connect } from 'react-redux'
+import Cabecera from './components/Cabecera'
+import Pie from './components/Pie'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends Component{
+  render(){
+    const { games } = this.props
+    return(
+      <div>
+        <Cabecera />
+        <Pie />
+      </div>
+    )
+  }
 }
 
-export default App;
+const mapStateToProps = state => {
+  const { Juegos: { data: games } } = state
+
+  console.log(state)
+  
+  return {
+    games,
+  }
+}
+const mapDispatchToProps = dispatch => ({
+  
+})
+
+export default connect(mapStateToProps, mapDispatchToProps)(App)
