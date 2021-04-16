@@ -7,7 +7,7 @@ export default class TarjetaJuego extends Component {
         return (
             <div>
                 <p>{info}</p>
-                <img src={info} alt=""/>
+                <img src={info} alt="" />
             </div>
         )
     }

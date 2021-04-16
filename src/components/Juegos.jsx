@@ -3,13 +3,12 @@ import TarjetaJuego from './TarjetaJuego'
 
 export default class Juegos extends Component {
     render() {
-        const { games } = this.props
-        console.log(games)
+        const { games, url} = this.props
         return (
             <ul>
                 {
                     games.map(x =>
-                        <TarjetaJuego key={x} info={x} />
+                        <TarjetaJuego key={x} info={url + x} />
                     )
                 }
             </ul>

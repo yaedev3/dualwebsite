@@ -6,11 +6,11 @@ import Juegos from './components/Juegos'
 
 class App extends Component {
   render() {
-    const { games, headers } = this.props
+    const { games, headers, url } = this.props
     return (
       <div>
         <Cabecera headers={headers} />
-        <Juegos games={games} />
+        <Juegos games={games} url={url} />
         <Pie />
       </div>
     )
@@ -20,9 +20,11 @@ class App extends Component {
 const mapStateToProps = state => {
   console.log(state)
   const { Juegos: { data: games } } = state
+  const { Juegos: { url } } = state
   const { Encabezados: { data: headers } } = state
 
   return {
+    url,
     games,
     headers,
   }
