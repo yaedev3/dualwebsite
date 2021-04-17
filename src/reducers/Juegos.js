@@ -27,10 +27,6 @@ const information = [
     },
 ]
 
-const dualInformation = {
-    store: 'https://play.google.com/store/apps/developer?id=DUAL+Dev'
-}
-
 const initState = {
     data: information,
     url: imageUrl,
