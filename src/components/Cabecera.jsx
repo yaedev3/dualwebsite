@@ -1,17 +1,21 @@
 import React, { Component } from 'react';
+import { colors } from './Colors'
+
+const { backgroundColor, accentColor } = colors
 
 const styles = {
     container: {
         textAligh: 'center',
         listStyle: 'none',
-        border: '1px solid black',
-        // width: '95%',
-        margin: 'auto',
-        textAlign:'center',
+        margin: '0px auto',
+        textAlign: 'center',
+        backgroundColor: backgroundColor,
     },
     option: {
         display: 'inline-block',
-        margin:'15px'
+        margin: '15px',
+        fontSize: '20px',
+        color: accentColor,
     },
 }
 

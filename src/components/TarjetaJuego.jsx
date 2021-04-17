@@ -1,15 +1,19 @@
 import React, { Component } from 'react';
 import storeImage from '../google-store.jpg'
+import { colors } from './Colors'
+
+const { accentColor, primaryColor, detailColor } = colors
 
 const styles = {
     card: {
-        border: '1px solid black',
+        border: '1px solid ' + primaryColor,
         width: '200px',
         textAlign: 'center',
-        float: 'left',
+        // float: 'left',
         borderRadius: '15px',
-        margin: '10px',
-        // padding:'10px',
+        margin: '15px',
+        backgroundColor: accentColor,
+        display:'inline-block',
     },
     image: {
         width: '150px',
@@ -18,6 +22,7 @@ const styles = {
     },
     title: {
         fontSize: '20px',
+        color: primaryColor,
     },
     storeImage: {
         width: '150px',

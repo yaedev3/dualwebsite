@@ -1,9 +1,15 @@
 import React, { Component } from "react"
 import TarjetaJuego from './TarjetaJuego'
+import { colors } from './Colors'
+
+const { backgroundColor, primaryColor } = colors
 
 const style = {
-    width: '95%',
     textAlign: 'center',
+    backgroundColor: backgroundColor,
+    borderTop: '1px solid ' + primaryColor,
+    margin: '0px auto',
+    height:'100vh',
 }
 
 export default class Juegos extends Component {
