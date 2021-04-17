@@ -1,9 +1,18 @@
 import React, { Component } from 'react';
 
 const styles = {
-    inline: {
-        display: 'inline'
-    }
+    container: {
+        textAligh: 'center',
+        listStyle: 'none',
+        border: '1px solid black',
+        // width: '95%',
+        margin: 'auto',
+        textAlign:'center',
+    },
+    option: {
+        display: 'inline-block',
+        margin:'15px'
+    },
 }
 
 export default class Cabecera extends Component {
@@ -11,11 +20,11 @@ export default class Cabecera extends Component {
         const { headers } = this.props
 
         return (
-            <ul style={styles.inline}
+            <ul style={styles.container}
             >
                 {
                     headers.map(x =>
-                        <li key={x}>{x}</li>
+                        <li style={styles.option} key={x}>{x}</li>
                     )
                 }
             </ul>
